@@ -21,3 +21,8 @@
 .manage{
     display: none;
 }
+.contact{
+    background-image: url(../assets//backgrounds/c_image.jpg);
+    height: 50vh;
+    background-size: cover;
+}
