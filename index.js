@@ -4,4 +4,8 @@ $(document) .ready(function(){
     $('div.jumbotro').addClass("text-white")
     $('div.about').addClass("text-center")
     $('div.services').addClass("text-center text-white mt-5")
+    $('div.we-do').addClass("text-center")
+    $('div.we-do').on('click',function(){
+        $('.contain').toggle(2000)
+    })
 });

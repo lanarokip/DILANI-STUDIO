@@ -9,3 +9,6 @@
     background-size:cover;
     padding-top: 50%;
 }
+.contain{
+    display: none;
+}
