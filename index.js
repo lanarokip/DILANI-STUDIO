@@ -41,3 +41,33 @@ function on(){
 function off(){
     document.getElementById('overlay').style.display="none";
 }
+function hove(){
+    document.getElementById('overla').style.display="block";
+}
+function nohove(){
+    document.getElementById('overla').style.display="none";
+}
+function hov(){
+    document.getElementById('overl').style.display="block";
+}
+function nohov(){
+    document.getElementById('overl').style.display="none";
+}
+function ho(){
+    document.getElementById('overlay').style.display="block";
+}
+function noho(){
+    document.getElementById('overlay').style.display="none";
+}
+function hover1(){
+    document.getElementById('over').style.display="block";
+}
+function nohover2(){
+    document.getElementById('over').style.display="none";
+}
+// function hover(){
+//     document.getElementById('overly').style.display="block";
+// }
+// function nohover(){
+//     document.getElementById('overly').style.display="none";
+// }
