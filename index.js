@@ -65,9 +65,27 @@ function hover1(){
 function nohover2(){
     document.getElementById('over').style.display="none";
 }
-// function hover(){
-//     document.getElementById('overly').style.display="block";
-// }
-// function nohover(){
-//     document.getElementById('overly').style.display="none";
-// }
+function carry1(){
+    document.getElementById('carry').style.display="block";
+}
+function carry2(){
+    document.getElementById('carry').style.display="none";
+}
+function carr1(){
+    document.getElementById('carr').style.display="block";
+}
+function carr2(){
+    document.getElementById('carr').style.display="none";
+}
+function car1(){
+    document.getElementById('car').style.display="block";
+}
+function car2(){
+    document.getElementById('car').style.display="none";
+}
+function ca1(){
+    document.getElementById('ca').style.display="block";
+}
+function ca2(){
+    document.getElementById('ca').style.display="none";
+}
