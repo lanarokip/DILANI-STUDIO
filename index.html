@@ -58,11 +58,11 @@
         <p class="display-4 text-center">PORTFOLIO</p>
     </div>
         <div class="row justify-content-center">
-            <div class="col-md-2">
-                <img src="./assets/portfolio/work1.jpg">
-                <div class="layer">
-                    <h3>BAILY WONGER</h3>
+            <div class="col-md-2 Arena">
+                <div id="overlay" onclick="off()">
+                    <div id="text">Overlay Text</div>
                 </div>
+                <img onmouseover="on()" onmouseout="off()" src="./assets/portfolio/work1.jpg">
             </div>
             <div class="col-md-2">
                 <img src="./assets/portfolio/work2.jpg">
@@ -74,7 +74,9 @@
                 <img src="./assets/portfolio/work4.jpg">
             </div>    
         </div>
-        <div class="row justify-content-center pt-4">
+
+        
+        <div class="row justify-content-center ">
             <div class="col-md-2">
                 <img src="./assets/portfolio/work5.jpg">
             </div>
@@ -90,22 +92,23 @@
         </div>
 </div>
 
-<div class="contact">
+<div class="contact pt-5">
     <div>
-        <p>CONTACT US</p>
+        <p class="display-4 text-white text-center">CONTACT US</p>
     </div>
-    <form class="container">
-        <div class="form-row">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Name..">
-          </div>
-          <div class="col">
-            <input type="email" class="form-control" placeholder="Email..">
-          </div>
-        </div>
+    <form class=" container" onsubmit="return verify()">
+            <div class="form-row">
+              <div class="col">
+                <input style="color: #C0C0C0;" id="idname" type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col">
+                <input style="color: #C0C0C0;" id="idemail" type="email" class="form-control" placeholder="Last name">
+              </div>
+            </div>
         <div class="form-group">
             <label for="Textarea1"></label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <textarea style="color: #C0C0C0;" class="form-control" id="message" rows="3"></textarea><br>
+            <button  type="submit" class="btn btn-primary mb-2 ">submit</button>
           </div>
       </form>
 </div>

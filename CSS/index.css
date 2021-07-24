@@ -33,7 +33,23 @@
 .designing:hover{
     box-shadow: 0 0 2px rgba(63, 1, 1, 0.2);
 }
-.layer{
-   
+form input{
+    background: transparent !important;
 }
-
+form textarea{
+    height: 40px;
+    background: transparent !important;
+}
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    border: solid black;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
+#overlay{
+    display: none;
+}
