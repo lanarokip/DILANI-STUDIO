@@ -13,6 +13,7 @@ $(document).ready(function(){
     $('div.we-do').addClass("text-center")
     $('div.we-do.contain').addClass("justify-content-center")
     $('.port').addClass("text-center")
+    $('button .text').addClass("justify-content-center")
     $('.what').on('click',function(){
         $('.contain').toggle(2000)
     })
