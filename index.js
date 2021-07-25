@@ -8,15 +8,19 @@ $(document).ready(function(){
     $('.what').on('click',function(){
         $('.contain').toggle(2000)
     })
-    $('.des').on('click' ,function(){
-        $('.design').toggle(1000)
-    });
-    $('.dev').on('click' ,function(){
-        $('.develop').toggle(1000)
-    });
-    $('.product').on('click' ,function(){
-        $('.manage').toggle(1000)
-    });
+    // $('.des').on('click' ,function(){
+    //     $('.design').toggle(1000)
+    // });
+    // $('.dev').on('click' ,function(){
+    //     $('.develop').toggle(1000)
+    // });
+    // $('.product').on('click' ,function(){
+    //     $('.manage').toggle(1000)
+    // });
+    $('.designing1').click(function(){
+        $('.des').toggle()
+        $('.design').toggle()
+    })
 });
 //  ----verivication----
 
@@ -83,9 +87,9 @@ function car1(){
 function car2(){
     document.getElementById('car').style.display="none";
 }
-function ca1(){
-    document.getElementById('ca').style.display="block";
-}
-function ca2(){
-    document.getElementById('ca').style.display="none";
-}
+// function ca1(){
+//     document.getElementById('ca').style.display="block";
+// }
+// function ca2(){
+//     document.getElementById('ca').style.display="none";
+// }
