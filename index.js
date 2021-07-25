@@ -5,6 +5,8 @@ $(document).ready(function(){
     $('div.about').addClass("text-center")
     $('div.services').addClass("text-center text-white mt-5")
     $('div.we-do').addClass("text-center")
+    $('div.we-do.contain').addClass("justify-content-center")
+    $('.port').addClass("text-center")
     $('.what').on('click',function(){
         $('.contain').toggle(2000)
     })
@@ -86,9 +88,9 @@ function car1(){
 function car2(){
     document.getElementById('car').style.display="none";
 }
-// function ca1(){
-//     document.getElementById('ca').style.display="block";
-// }
-// function ca2(){
-//     document.getElementById('ca').style.display="none";
-// }
+function ca1(){
+    document.getElementById('ca').style.display="block";
+}
+function ca2(){
+    document.getElementById('ca').style.display="none";
+}

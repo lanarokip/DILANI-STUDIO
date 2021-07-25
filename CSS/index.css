@@ -1,6 +1,6 @@
 .jumbotro{
     background-image: url(../assets/backgrounds/h_img.jpg);
-    height: 60vh;
+    height: 80vh;
     background-size: cover;
 }
 .services{
@@ -46,11 +46,11 @@ form textarea{
     left: 50%;
     font-size: 50px;
     color: white;
-    border: solid black;
+    border: 79px solid rgba(0, 0, 0, 0.3);
     transform: translate(-50%,-50%);
    
   }
-  #overla, #overl, #overlay, #over, #overlay,#carry, #carr, #car{
+  #overla, #overl, #overlay, #over, #overlay,#carry, #carr, #car, #ca{
     display: none;
     top: 0;
     left: 0;
