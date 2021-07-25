@@ -10,7 +10,7 @@ this a website about DELANI STUDIO .The offers given by the studio is all noted 
 * Ensure you are in your prefered folder, where you want it to be set up.
 * run this comand in your terminal git clone
 ### live site 
-view [live](#)
+view [live](https://lanarokip.github.io/DILANI-STUDIO/)
 ## Known Bugs
 no bugs as of deployment
 ## Technologies Used
