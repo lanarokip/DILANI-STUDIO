@@ -1,5 +1,11 @@
 // this a jsquery code creating new clases thst aligns the text to the center
 $(document).ready(function(){
+
+
+    $(".we-do").addClass("text-center")
+    $(".trialtwo").addClass("text-center")
+
+
     $('div.jumbotro').addClass("text-center")
     $('div.jumbotro').addClass("text-white")
     $('div.about').addClass("text-center")
