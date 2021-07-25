@@ -9,16 +9,17 @@ $(document).ready(function(){
         $('.contain').toggle(2000)
     })
     $('.designing1').click(function(){
-        $('.des').toggle()
-        $('.design').toggle()
+        $('.des').toggle(100)
+        $('.design').toggle(100)
     })
     $('.designing2').click(function(){
-        $('.dev').toggle()
-        $('.develop').toggle()
+        $('.dev').toggle(100)
+        $('.develop').toggle(100)
     })
     $('.designing3').click(function(){
-        $('.')
-    })
+        $('.product').toggle(100)
+        $('.manage').toggle(100)
+        })
 });
 //  ----verivication----
 
