@@ -8,18 +8,16 @@ $(document).ready(function(){
     $('.what').on('click',function(){
         $('.contain').toggle(2000)
     })
-    // $('.des').on('click' ,function(){
-    //     $('.design').toggle(1000)
-    // });
-    // $('.dev').on('click' ,function(){
-    //     $('.develop').toggle(1000)
-    // });
-    // $('.product').on('click' ,function(){
-    //     $('.manage').toggle(1000)
-    // });
     $('.designing1').click(function(){
         $('.des').toggle()
         $('.design').toggle()
+    })
+    $('.designing2').click(function(){
+        $('.dev').toggle()
+        $('.develop').toggle()
+    })
+    $('.designing3').click(function(){
+        $('.')
     })
 });
 //  ----verivication----
